@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <? include 'includes/style.php'; ?>
+    <?php require 'includes/style.php'; ?>
         <title>Home | Nicholas Drazenovic</title>
 </head>
 
@@ -27,7 +27,9 @@
     </header>
     <!-- End navbar -->
     <!-- Begin main content -->
-    <div class='center middle jumbotron'>
+    <div class='text-center middle jumbotron'>
+        <h2>Featured Projects</h2>
+        <p class='lead'>A few select projects from various Computer Science courses</p>
     </div>
     <!-- End main content -->
 </body>
