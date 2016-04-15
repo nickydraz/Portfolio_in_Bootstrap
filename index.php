@@ -7,9 +7,9 @@
 
 <body>
     <!-- Begin header and navbar for page -->
-    <header class="navbar navbar-fixed-top navbar-inverse">
+    <header class="navbar navbar-static-top navbar-inverse hidden-xs">
         <div class="container">
-            <a id="logo" href='#'>Nicholas Drazenovic</a>
+            <a id="logo" href='/index.php'>Nicholas Drazenovic</a>
             <nav>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
@@ -26,9 +26,30 @@
         </div>
     </header>
     <!-- End navbar -->
+
+    <!-- Begin header and navbar for page -->
+    <header class="navbar navbar-static-top navbar-inverse visible-xs-inline">
+        <div class="container">
+
+            <nav>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href='#'><span class="glyphicon glyphicon-home"></span></a>
+                    </li>
+                    <li>
+                        <a href='#'><span class="glyphicon glyphicon-book"></span></a>
+                    </li>
+                    <li>
+                        <a href='#'><span class="glyphicon glyphicon-info-sign"></span></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- End navbar -->
     <!-- Begin main content -->
     <div class='container'>
-        <div class='text-center middle jumbotron'>
+        <div class='text-center jumbotron'>
             <h2>Featured Projects</h2>
             <p class='lead'>A few select projects from various Computer Science courses</p>
         </div>
