@@ -7,12 +7,21 @@
 
 <body>
     <!-- Begin header and navbar for page -->
-    <header class="navbar navbar-static-top navbar-inverse hidden-xs">
+    <nav class="navbar navbar-inverse navbar-static-top">
         <div class="container">
-            <a id="logo" href='/index.php'>Nicholas Drazenovic</a>
-            <nav>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class='navbar-brand hidden-xs' id="logo" href='/index.php'>Nicholas Drazenovic</a>
+                <a class='navbar-brand visible-xs' id="logo" href='/index.php'>N.D.</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
+                    <li class='active'>
                         <a href='#'>Home</a>
                     </li>
                     <li>
@@ -22,31 +31,12 @@
                         <a href='#'>About</a>
                     </li>
                 </ul>
-            </nav>
-        </div>
-    </header>
-    <!-- End navbar -->
 
-    <!-- Begin header and navbar for page -->
-    <header class="navbar navbar-static-top navbar-inverse visible-xs-inline">
-        <div class="container">
-
-            <nav>
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href='#'><span class="glyphicon glyphicon-home"></span></a>
-                    </li>
-                    <li>
-                        <a href='#'><span class="glyphicon glyphicon-book"></span></a>
-                    </li>
-                    <li>
-                        <a href='#'><span class="glyphicon glyphicon-info-sign"></span></a>
-                    </li>
-                </ul>
-            </nav>
+            </div>
+            <!--/.navbar-collapse -->
         </div>
-    </header>
-    <!-- End navbar -->
+    </nav>
+
     <!-- Begin main content -->
     <div class='container'>
         <div class='text-center jumbotron'>
