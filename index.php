@@ -10,7 +10,7 @@
         <!-- Begin header and navbar for page -->
         <header class="navbar navbar-static-top navbar-inverse hidden-xs">
             <div class="container">
-                <a id="logo" href='/index.php'>Nicholas Drazenovic</a>
+                <a id="logo" href='/#.php'>Nicholas Drazenovic</a>
                 <nav>
                     <ul class="nav navbar-nav navbar-right">
                         <li>
