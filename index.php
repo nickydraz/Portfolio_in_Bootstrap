@@ -22,7 +22,7 @@
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href='#'>Home</a>
+                        <a href='/index.php'>Home</a>
                     </li>
                     <li>
                         <a href='#'>Courses</a>
