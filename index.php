@@ -3,7 +3,7 @@
 <head>
     <!-- Include the needed styles and other files -->
     <?php require 'includes/style.php'; ?>
-        <title>Home | Nick Drazenovic</title>
+        <title>Home | Nicholas Drazenovic</title>
 </head>
 
 <body>
