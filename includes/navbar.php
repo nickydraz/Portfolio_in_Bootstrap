@@ -17,7 +17,7 @@
                     <a href='/index.php'>Home</a>
                 </li>
                 <li>
-                    <a href='#'>Courses</a>
+                    <a href='/courses.php'>Courses</a>
                 </li>
                 <li>
                     <a href='#'>About</a>
