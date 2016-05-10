@@ -31,7 +31,7 @@ else {
             <div class="col-xs-8 col-xs-offset-2">
                 <ul class="pagination">
                     <li><a href="courses.php?course=csc115">CSC 115</a></li>
-                    <li><a href="courses.php?course=csc215">CSC 215</a></li>
+                    <li id="215li"><a href="courses.php?course=csc215">CSC 215</a></li>
                     <li><a href="courses.php?course=csc415">CSC 415</a></li>
                     <li><a href="courses.php?course=csc425">CSC 425</a></li>
                 </ul>
