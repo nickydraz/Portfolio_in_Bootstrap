@@ -13,13 +13,13 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li>
+                <li role="presentation" id="Home">
                     <a href='/index.php'>Home</a>
                 </li>
-                <li>
+                <li role="presentation" id="Courses">
                     <a href='/courses.php'>Courses</a>
                 </li>
-                <li>
+                <li role="presentation" id="About">
                     <a href='#'>About</a>
                 </li>
             </ul>
@@ -28,3 +28,7 @@
         <!--/.navbar-collapse -->
     </div>
 </nav>
+<script src="/Javascript/script.js"></script>
+<script>
+    determineActive();
+</script>
