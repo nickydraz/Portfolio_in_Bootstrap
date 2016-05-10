@@ -28,7 +28,6 @@
         <!--/.navbar-collapse -->
     </div>
 </nav>
-<script src="/Javascript/script.js"></script>
 <script>
     determineActive();
 </script>
