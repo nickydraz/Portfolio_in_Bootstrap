@@ -16,6 +16,17 @@ function determineActive(linkName) {
 
 //Function to switch the content of the courses page
 //based on which course was selected
-function determineCourse() {
+function determineCourse(currCourse) {
+
+    //Clear the current active
+    var arr = document.getElementById("courseListings").childNodes;
+    arr[1].className = "";
+    arr[3].className = "";
+    arr[5].className = "";
+    arr[7].className = "";
+
+    //Set the appropriate one as active
+    document.getElementById(currCourse).className += " active";
+    document.getElementById("selectedCourseContent").innerHTML = `<?php requires '/Courses/" + currCourse + ".php ?>`;
 
 }
