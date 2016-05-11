@@ -100,3 +100,8 @@ footer ul li {
 .full-width {
     width: 100%;
 }
+
+.course-listing {
+    max-height: 350px;
+    min-height: 300px;
+}
