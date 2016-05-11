@@ -8,6 +8,7 @@ I will also be using Javascript, PHP, and JQuery to handle functionality.
 Actual course project files have been hidden from this repository, as some of them contain sensitive information. 
 Eventually, I will set up another repository with clean version of all the projects, with no sensitive information.
 
+Progress of the site can be viewed at: http://dev.ndraz.com
 
 # Things To Do
 - Add more course projects to Course page.
