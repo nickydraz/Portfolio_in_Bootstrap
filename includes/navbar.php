@@ -11,7 +11,7 @@
             <a class='navbar-brand hidden-xs' id="logo" href='/index.php'>Nicholas Drazenovic</a>
             <a class='navbar-brand visible-xs' id="logo" href='/index.php'>N.D.</a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
+        <div id="navbar" class="navbar-collapse collapse text-right">
             <ul class="nav navbar-nav navbar-right">
                 <li role="presentation" id="Home">
                     <a href='/index.php'>Home</a>
