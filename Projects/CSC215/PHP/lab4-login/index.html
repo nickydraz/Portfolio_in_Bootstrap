@@ -1,0 +1,43 @@
+<html>
+
+<head>
+  <style>
+    body {
+      width: 100%;
+    }
+
+    #container {
+      margin: 0 auto;
+      width: 300px;
+      text-align: center;
+    }
+
+    #form {
+      text-align: center;
+      margin: 0 auto;
+      border: solid 1px;
+    }
+
+    input[type="submit"], input[type="reset"]{
+        width: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <h2>Log-In Page For A Mysterious Web Service</h2>
+    <div id="form">
+      <form action="login.php" method="post">
+        <label for="username">Username: </label>
+        <input type="text" name="username"><br />
+        <label for="password">Password:&nbsp;</label>
+        <input type="password" name="password"><br />
+        <input type="submit">
+        <input type="reset">
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
