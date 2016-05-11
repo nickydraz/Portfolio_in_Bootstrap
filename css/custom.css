@@ -93,3 +93,10 @@ footer ul li {
 #logo:hover {
     text-decoration: none;
 }
+
+
+/* Class for elements that need to be full width*/
+
+.full-width {
+    width: 100%;
+}
