@@ -26,7 +26,7 @@ function determineCourse(currCourse) {
     arr[7].className = "";
 
     //Set the appropriate one as active
-    document.getElementById(currCourse).className += " active";
-    document.getElementById("selectedCourseContent").innerHTML = `<?php requires '/Courses/" + currCourse + ".php ?>`;
-
+    $("#" + currCourse).addClass("active");
+    //Load the content
+    $("#selectedCourseContent").load("/Courses/" + currCourse + ".html");
 }
