@@ -102,6 +102,9 @@ footer ul li {
 }
 
 .course-listing {
-    max-height: 350px;
     min-height: 300px;
+}
+
+.course-area {
+    width: 100%;
 }

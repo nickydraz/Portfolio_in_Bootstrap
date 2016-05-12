@@ -43,11 +43,19 @@
 
             <!-- Insert the proper course listing -->
             <!-- Javascript will determine what fills this div.
-                    JQuery will load the content of the course's page
-                -->
-            <div id="selectedCourseContent">
+                    JQuery will load the content of the course's page -->
+
+
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div id="selectedCourseContent">
+                </div>
             </div>
         </div>
+
+        <!-- Include the footer -->
+        <?php require 'includes/footer.php'; ?>
 </body>
 
 </html>
