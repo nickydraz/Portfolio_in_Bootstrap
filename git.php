@@ -1,1 +1,1 @@
-<?php `git pull origin master`;?>
+<?php `cd /var/www/html/test.ndraz.com && git pull origin master`;?>
