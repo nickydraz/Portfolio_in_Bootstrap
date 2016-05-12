@@ -15,4 +15,4 @@ Progress of the site can be viewed at: http://dev.ndraz.com
 - Add About page.
 - Find out way to showcase projects that are .exe, such as those in CSC 425
 - Add some more style to the page. It's a bit bland.
-- Need to get Github Webhook working.
+- Need to get Github Webhook working...
