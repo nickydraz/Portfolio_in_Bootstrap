@@ -94,6 +94,10 @@ footer ul li {
     text-decoration: none;
 }
 
+button.navbar-toggle.collapsed {
+    border: none;
+}
+
 
 /* Class for elements that need to be full width*/
 
