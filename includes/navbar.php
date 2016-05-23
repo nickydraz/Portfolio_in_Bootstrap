@@ -20,7 +20,7 @@
                     <a href='/courses.php'>Courses</a>
                 </li>
                 <li role="presentation" id="About">
-                    <a href='#'>About</a>
+                    <a href='/about.php'>About</a>
                 </li>
             </ul>
 
