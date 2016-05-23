@@ -25,6 +25,7 @@
                         <li id="CSC215" onclick="determineCourse('CSC215');"><a>CSC 215</a></li>
                         <li id="CSC415" onclick="determineCourse('CSC415');"><a>CSC 415</a></li>
                         <li id="CSC425" onclick="determineCourse('CSC425');"><a>CSC 425</a></li>
+                        <li id="CSC495" onclick="determineCourse('CSC495');"><a>CSC 495</a></li>
                     </ul>
                 </div>
                 <!-- Menu for mobile devices -->
@@ -35,6 +36,7 @@
                             <option value="CSC215">CSC 215</option>
                             <option value="CSC415">CSC 415</option>
                             <option value="CSC425">CSC 425</option>
+                            <option value="CSC495">CSC 495</option>
                         </select>
                     </form>
                 </div>
