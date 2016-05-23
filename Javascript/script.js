@@ -18,12 +18,21 @@ function determineActive(linkName) {
 //based on which course was selected
 function determineCourse(currCourse) {
 
+    /*
+    Clicking on the current course causes a flicker as the screen reloads.
+    This check simply checks if the link clicked is already active, and returns without reloading,
+    resolving the flicker issue
+    */
+    if ($("#" + currCourse).hasClass("active")) {
+        return;
+    }
     //Clear the current active
     var arr = document.getElementById("courseListings").childNodes;
     arr[1].className = "";
     arr[3].className = "";
     arr[5].className = "";
     arr[7].className = "";
+    arr[9].className = "";
 
     //Set the appropriate one as active
     $("#" + currCourse).addClass("active");
