@@ -1,3 +1,3 @@
 <!-- File for Github Webhook -->
 
-<?php exec('cd /var/www/html/test.ndraz.com && git pull origin master');?>
+<?php exec('git -C /var/www/html/test.ndraz.com pull origin master');?>
