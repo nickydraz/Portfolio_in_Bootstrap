@@ -37,5 +37,5 @@ function determineCourse(currCourse) {
     //Set the appropriate one as active
     $("#" + currCourse).addClass("active");
     //Load the content
-    $("#selectedCourseContent").load("/Courses/" + currCourse + ".html");
+    $("#selectedCourseContent").load("/Courses/courseSelect.php?currCourse=" + currCourse);
 }
