@@ -1,6 +1,5 @@
 <?php
 
-    //Database connection variables
     $server = "localhost";
     $username = "web";
     $password = "ndrazdev";
