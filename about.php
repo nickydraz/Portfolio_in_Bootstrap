@@ -32,7 +32,23 @@
 
             <div class="col-xs-12 col-sm-8 col-sm-offset-1 well">
                 <h4><lead>Nicholas Drazenovic - Front-End Developer</lead></h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras scelerisque in eros sed viverra. Donec eget pellentesque orci, sed porta nunc. Aenean aliquam elit eget nulla auctor pharetra eget ac elit. Proin posuere, neque id ultrices pulvinar, justo nunc egestas nunc, at pellentesque enim libero in mauris. Integer arcu mi, mollis fringilla arcu vitae, mattis consequat nibh. Donec sed justo risus. Ut id elit a massa tristique molestie. Fusce elit odio, ultrices euismod massa ac, porta ullamcorper dolor. Suspendisse tellus est, vulputate sit amet feugiat id, molestie id ligula. Aenean ac viverra nibh, eu volutpat nibh. Morbi vitae rhoncus lorem. Mauris ac volutpat enim. Nam tempor sem lacus, sit amet maximus risus maximus consectetur. Phasellus ac mattis tellus, vitae accumsan ligula. Mauris vulputate sed mi quis condimentum. Nulla viverra nisl ut nunc volutpat, quis placerat odio facilisis. Nullam massa quam, ultrices a ante sed, rutrum mattis dui. Phasellus venenatis sem placerat turpis scelerisque, eget consequat felis hendrerit. Fusce non mi nec nibh ullamcorper rhoncus et a lectus. Duis id elementum eros. Quisque luctus aliquet sollicitudin. Curabitur cursus vulputate nisl, a pharetra turpis rutrum quis. Maecenas mattis tellus nunc, a auctor nunc egestas ac. Aliquam nec eros iaculis odio maximus pretium. Nam euismod, nunc sed semper pretium, nunc purus lacinia sapien, nec dictum tellus mi aliquam dolor. In nec ante facilisis nunc vehicula convallis. Mauris congue lacus nec elit fringilla, ut molestie sem pulvinar. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur eu vulputate sem. Maecenas rutrum nulla placerat, pellentesque erat non, scelerisque erat. Proin ultricies urna non erat vehicula, quis luctus sem tempor. Sed laoreet convallis mauris sed cursus. Sed quis vehicula purus. Praesent vel dolor nec dolor vulputate laoreet. Maecenas in vestibulum metus. Integer non diam aliquam, cursus mi et, sodales mi. Generated 3 paragraphs, 299 words, 1990 bytes of Lorem Ipsum</p>
+                <p>My name is Nicholas Drazenovic. I am a Spring 2016 graduate of North Central College, after studying English&mdash; with a concentration in writing&mdash; and Computer Science.
+			    <br>
+                <br>
+                This site showcases some of the projects that I have developed throughout my Computer Science courses.
+			    <br>
+                <br>
+                Below, you will find links to my resume and my LinkedIn profile.
+			    <br>
+                <br>
+                Feel free to contact me at <a href="mailto:njdrazenovic@gmail.com">njdrazenovic@gmail.com</a>
+			    <br>
+                <br>
+                <a href="documents/N_Drazenovic_Resume.pdf" target="_blank">Click here to view my resume</a>
+			    <br>
+                <br>
+                <a href="https://www.linkedin.com/pub/nicholas-drazenovic/b8/565/b5" target="_blank">Click here to view my LinkedIn Profile</a>
+            </p>
             </div>
         </div>
 
@@ -40,6 +56,7 @@
         <?php require 'includes/footer.php'; ?>
 
             <script>
+            //jQuery to handle properly rearranging elements based on screen size
                 $(document).ready(function () {
                     $(window).resize(function () {
                         var viewportWidth = $(window).width();
