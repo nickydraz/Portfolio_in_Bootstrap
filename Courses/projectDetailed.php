@@ -47,6 +47,9 @@
             </div>
         </div>
     </div>
+
+    <!-- Include the footer -->
+    <?php require '../includes/footer.php'; ?>
 </body>
 
 </html>
