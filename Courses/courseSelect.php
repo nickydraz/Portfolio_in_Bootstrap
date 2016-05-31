@@ -30,7 +30,7 @@
                 $row = mysqli_fetch_assoc($result);
                 ?>
                 <div class='well col-md-6 col-md-offset-3 course-listing'>
-                    <a href='<?php echo $row["Link"] ?>' target="_blank"><img class='img-rounded img-responsive' src='<?php echo $row["ImageLink"] ?>' /></a>
+                    <a href='Courses/projectDetailed.php?project_id=<?php echo $row["project_id"] ?>'><img class='img-rounded img-responsive' src='<?php echo $row["ImageLink"] ?>' /></a>
                     <p class='lead'>
                         <?php echo $row["Title"]?>
                     </p>
@@ -68,7 +68,7 @@
                     }
                     ?>
                     <div class='well col-md-4 col-md-offset-<?php echo $offset; ?> course-listing '>
-                        <a href='<?php echo $row[ "Link"] ?>' target="_blank"><img class='img-rounded img-responsive' src='<?php echo $row["ImageLink"] ?>' /></a>
+                        <a href='Courses/projectDetailed.php?project_id=<?php echo $row["project_id"] ?>'><img class='img-rounded img-responsive' src='<?php echo $row["ImageLink"] ?>' /></a>
                         <p class='lead'>
                             <?php echo $row["Title"]?>
                         </p>

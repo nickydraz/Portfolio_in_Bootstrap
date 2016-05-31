@@ -40,7 +40,7 @@
                 <div class="col-xs-12">
                     <div class='row text-center'>
                         <div class='well col-md-4 col-md-offset-1'>
-                            <a href='<?php echo $allCourses[$index1]['Link'];?>' target="_blank"><img class='img-rounded img-responsive' src='<?php echo $allCourses[$index1]['ImageLink'];?>' /></a>
+                            <a href='Courses/projectDetailed.php?project_id=<?php echo $allCourses[$index1]['project_id'];?>'><img class='img-rounded img-responsive' src='<?php echo $allCourses[$index1]['ImageLink'];?>' /></a>
                             <p class='lead'>
                                 <?php echo $allCourses[$index1]['Title']?>
                             </p>
@@ -56,7 +56,7 @@
                             </p>
                         </div>
                         <div class='well col-md-4 col-md-offset-2'>
-                            <a href='<?php echo $allCourses[$index2]['Link'];?>' target="_blank"><img class='img-rounded img-responsive' src='<?php echo $allCourses[$index2]['ImageLink'];?>' /></a>
+                            <a href='Courses/projectDetailed.php?project_id=<?php echo $allCourses[$index2]['project_id'];?>'><img class='img-rounded img-responsive' src='<?php echo $allCourses[$index2]['ImageLink'];?>' /></a>
                             <p class='lead'>
                                 <?php echo $allCourses[$index2]['Title']?>
                             </p>

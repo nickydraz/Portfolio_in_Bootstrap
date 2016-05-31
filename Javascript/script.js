@@ -10,6 +10,8 @@ function determineActive(linkName) {
     for (var i = 0; fullTitle.charAt(i) != ' '; i++) {
         currentTitle += fullTitle.charAt(i);
     }
+    if (currentTitle == "Project")
+        currentTitle = "Courses";
     //Find that element in the navbar, and set it to active
     document.getElementById(currentTitle).className += " active";
 }
