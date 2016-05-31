@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class='navbar-brand hidden-xs' id="logo" href='/index.php'><img class='img-responsive' src='/images/logo.png' /></a>
-            <a class='navbar-brand visible-xs' id="logo" href='/index.php'><img class='img-responsive' src='/images/mobile-logo.png' /></a>
+            <a class='navbar-brand visible-xs mobile-logo' id="logo" href='/index.php'><img class='img-responsive' src='/images/mobile-logo.png' /></a>
         </a>
         <div id="navbar" class="navbar-collapse collapse text-right">
             <ul class="nav navbar-nav navbar-right">

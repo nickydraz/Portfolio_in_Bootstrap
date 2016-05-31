@@ -88,7 +88,7 @@ footer ul li {
     float: left;
 
     margin-right: 10px;
-    padding-top: 9px;
+    padding-top: 12px;
 
     text-decoration: none;
     letter-spacing: -1px;
@@ -108,12 +108,17 @@ button.navbar-toggle.collapsed {
     border: none;
 }
 
+#logo.navbar-brand.mobile-logo {
+    padding: 5px 0px;
+}
 .navbar-inverse .navbar-nav>li>a:focus,
 .navbar-inverse .navbar-nav>li>a:hover {
     color: #61C3FF;
 }
 
-
+.navbar-header:after {
+    display: inline;
+}
 /* Class for elements that need to be full width*/
 
 .full-width {
