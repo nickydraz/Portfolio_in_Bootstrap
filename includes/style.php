@@ -1,5 +1,25 @@
-<!-- Viewport -->
-<meta name='viewport' content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- Meta -->
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Portfolio site for Nicholas Drazenovic">
+<!-- Control the behavior of search engine crawling and indexing -->
+<meta name="robots" content="index,follow,noodp"><!-- All Search Engines -->
+<meta name="googlebot" content="index,follow"><!-- Google Specific -->
+
+<!-- Tells Google not to show the sitelinks search box -->
+<meta name="google" content="nositelinkssearchbox">
+
+<!-- Tells Google not to provide a translation for this page -->
+<meta name="google" content="notranslate">
+<!-- Full domain name or web address -->
+<meta name="url" content="http://dev.ndraz.com/">
+<!-- Makes sure your website shows up in all countries and languages -->
+<meta name="coverage" content="Worldwide">
+<!-- Gives a general age rating based on sites content -->
+<meta name="rating" content="General">
+<!-- Disable automatic detection and formatting of possible phone numbers -->
+<meta name="format-detection" content="telephone=no">
 
 <!--Include needed styles -->
 <link rel="stylesheet" type="text/css" href="/boot/css/bootstrap.min.css">
