@@ -108,8 +108,17 @@ button.navbar-toggle.collapsed {
     border: none;
 }
 
-#logo.navbar-brand.mobile-logo {
-    padding: 5px 0px;
+#logo .navbar-brand .mobile-logo {
+    padding: 5px 0;
+}
+
+.mobile-logo {
+    max-width: 50%;
+    padding: 0;
+}
+
+.main-logo {
+    max-width: 35%;
 }
 .navbar-inverse .navbar-nav>li>a:focus,
 .navbar-inverse .navbar-nav>li>a:hover {
@@ -154,10 +163,8 @@ button.navbar-toggle.collapsed {
 
 @media (min-width: 992px) {
     .aboutBody {
+        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.), rgba(0, 0, 0, 0.1)), url("../images/code_background.png");
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.), rgba(0, 0, 0, 0.1)), url("../images/code_background.png");
-        background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/code_background.png");
-        background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/code_background.png");
-        background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/code_background.png");
         background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url("../images/code_background.png");
         background-image: -webkit-linear-gradient(top, rgba(50, 50, 50, 0.3), rgba(50, 50, 50, 0.6)), url("../images/code_background.png");
         background-repeat: no-repeat;
@@ -196,7 +203,7 @@ http://stackoverflow.com/questions/12445347/css-partial-border-to-create-place-h
     margin: 30px;
 }
 
-#box > div.corner {
+#box > .corner {
     position: absolute;
 
     display: block;
@@ -218,13 +225,13 @@ http://stackoverflow.com/questions/12445347/css-partial-border-to-create-place-h
 }
 
 .left {
-    left: 0px;
+    left: 0;
 
     border-left-style: solid;
 }
 
 .right {
-    right: 0px;
+    right: 0;
 
     border-right-style: solid;
 }
