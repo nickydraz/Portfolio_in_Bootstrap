@@ -13,9 +13,9 @@ Progress of the site can be viewed at: http://dev.ndraz.com
 # Things To Do
 - [ ] Add more course projects to Course page.
   - Somewhat done. Still need to add CSC 415 images
-- [ ] Add page for each project (more details on the project)
-  - Will likely need to reconfigure the DB tables to better create these pages
+- [x] Add page for each project (more details on the project)
+  - Dyanmically builds from database
+  - Still need to add more information for each page into database
 - [x] Add About page.
 - [ ] Find out way to showcase projects that are .exe, such as those in CSC 425
-- [ ] Add some more style to the page. It's a bit bland.
-- [ ] Webhook not working properly after all. Would be nice to have that fixed to make deploying easier.
+- [x] Add some more style to the page. It's a bit bland.
