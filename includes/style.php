@@ -28,4 +28,4 @@
 <script src="/boot/js/bootstrap.min.js"></script>
 <script src="/Javascript/script.js"></script>
 <link rel="stylesheet" type="text/css" href="/boot/fonts/glyphicons-halflings-regular.svg">
-<link rel="stylesheet" type="text/css" href="/css/custom.css">
+<link rel="stylesheet" type="text/css" href="/css/style.min.css">

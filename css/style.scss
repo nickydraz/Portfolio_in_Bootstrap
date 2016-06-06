@@ -1,11 +1,5 @@
-/* Custom Styles
+/* Custom Styles */
 
-
-NOTE: Have since moved this to a SASS file.
-Keeping the file in case there are any problems.
--ND 6/5/16
-
-*/
 body {
     font-family: "Helvetica", Times, Serif;
 }
@@ -42,44 +36,38 @@ h1 {
 
 /* Footer */
 
-.footer {
-    border-color: #080808;
-    background-color: #222;
-}
-
 footer {
     margin-top: 45px;
     padding-top: 5px;
 
     color: #999;
+
+    a {
+        color: #999;
+        line-height: normal;
+        &:hover {
+          text-decoration: none;
+          color: #61C3FF;
+        }
+    }
+    small {
+        float: left;
+    }
+    ul {
+        float: right;
+
+        list-style: none;
+    }
+    ul li {
+        float: left;
+
+        margin-left: 15px;
+    }
 }
 
-footer a {
-    color: #999;
-
-    line-height: normal;
-}
-
-footer a:hover {
-    text-decoration: none;
-
-    color: #61C3FF;
-}
-
-footer small {
-    float: left;
-}
-
-footer ul {
-    float: right;
-
-    list-style: none;
-}
-
-footer ul li {
-    float: left;
-
-    margin-left: 15px;
+.footer {
+    border-color: #080808;
+    background-color: #222;
 }
 
 .footer .container {
@@ -104,18 +92,19 @@ footer ul li {
     font-size: 1.7em;
     font-weight: bold;
     line-height: normal;
-}
 
-#logo:hover {
-    text-decoration: none;
+    :hover {
+        text-decoration: none;
+    }
+
+    .navbar-brand .mobile-logo {
+        padding: 5px 0;
+    }
+
 }
 
 button.navbar-toggle.collapsed {
     border: none;
-}
-
-#logo .navbar-brand .mobile-logo {
-    padding: 5px 0;
 }
 
 .mobile-logo {
