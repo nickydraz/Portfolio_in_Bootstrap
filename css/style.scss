@@ -1,3 +1,7 @@
+/* Variables */
+$linkColor: #61C3FF;
+$codeBackground: "../images/code_background.png";
+
 /* Custom Styles */
 
 body {
@@ -47,7 +51,7 @@ footer {
         line-height: normal;
         &:hover {
           text-decoration: none;
-          color: #61C3FF;
+          color: $linkColor;
         }
     }
     small {
@@ -93,7 +97,7 @@ footer {
     font-weight: bold;
     line-height: normal;
 
-    :hover {
+    &:hover {
         text-decoration: none;
     }
 
@@ -117,12 +121,13 @@ button.navbar-toggle.collapsed {
 }
 .navbar-inverse .navbar-nav>li>a:focus,
 .navbar-inverse .navbar-nav>li>a:hover {
-    color: #61C3FF;
+    color: $linkColor;
 }
 
 .navbar-header:after {
     display: inline;
 }
+
 /* Class for elements that need to be full width*/
 
 .full-width {
@@ -135,6 +140,10 @@ button.navbar-toggle.collapsed {
 
 .course-area {
     width: 100%;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+    color: $linkColor;
 }
 
 
@@ -158,10 +167,10 @@ button.navbar-toggle.collapsed {
 
 @media (min-width: 992px) {
     .aboutBody {
-        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/code_background.png");
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/code_background.png");
-        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url("../images/code_background.png");
-        background-image: -webkit-linear-gradient(top, rgba(50, 50, 50, 0.3), rgba(50, 50, 50, 0.6)), url("../images/code_background.png");
+        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url($codeBackground);
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url($codeBackground);
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url($codeBackground);
+        background-image: -webkit-linear-gradient(top, rgba(50, 50, 50, 0.3), rgba(50, 50, 50, 0.6)), url($codeBackground);
         background-repeat: no-repeat;
         background-size: cover;
     }
