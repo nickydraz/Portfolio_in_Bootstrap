@@ -3,6 +3,7 @@
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name='viewport' content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="Portfolio site for Nicholas Drazenovic">
+<meta name="author" content="Nicholas Drazenovic">
 <!-- Control the behavior of search engine crawling and indexing -->
 <meta name="robots" content="index,follow,noodp"><!-- All Search Engines -->
 <meta name="googlebot" content="index,follow"><!-- Google Specific -->
