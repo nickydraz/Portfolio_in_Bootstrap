@@ -2,7 +2,7 @@
 
 <head>
     <!-- Include the needed styles and other files -->
-    <?php require 'includes/style.php'; ?>
+    <?php require 'includes/head.php'; ?>
         <title>Courses | Nicholas Drazenovic</title>
 </head>
 

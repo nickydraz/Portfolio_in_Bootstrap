@@ -23,7 +23,7 @@
 <html>
 <head>
     <!-- Include the needed styles and other files -->
-    <?php require '../includes/style.php'; ?>
+    <?php require '../includes/head.php'; ?>
     <title>Project Details | Nicholas Drazenovic</title>
 </head>
 
