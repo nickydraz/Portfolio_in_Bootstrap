@@ -16,6 +16,7 @@ Progress of the site can be viewed at: http://dev.ndraz.com
 - [x] Add page for each project (more details on the project)
   - Dyanmically builds from database
   - Still need to add more information for each page into database
+    - Only 1 or 2 courses left; all other courses has full descriptions in the database
 - [x] Add About page.
 - [ ] Find out way to showcase projects that are .exe, such as those in CSC 425
 - [x] Add some more style to the page. It's a bit bland.
