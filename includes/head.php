@@ -22,6 +22,14 @@
 <!-- Disable automatic detection and formatting of possible phone numbers -->
 <meta name="format-detection" content="telephone=no">
 
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@nickydraz">
+<meta name="twitter:creator" content="@nickydraz">
+<meta name="twitter:title" content="Nicholas Drazenovic's Programming Portfolio">
+<meta name="twitter:description" content="A well-designed and clean portfolio site that demonstrates the advantage of being a front-end developer with back-end foundations.">
+<meta name="twitter:image" content="/images/logo.png">
+
 <!--Include needed styles -->
 <link rel="stylesheet" type="text/css" href="/boot/css/bootstrap.min.css">
 <link rel='stylesheet' type="text/css" href="/css/sticky-footer.css">
