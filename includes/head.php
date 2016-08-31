@@ -23,12 +23,12 @@
 <meta name="format-detection" content="telephone=no">
 
 <!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@nickydraz">
 <meta name="twitter:creator" content="@nickydraz">
 <meta name="twitter:title" content="Nicholas Drazenovic's Programming Portfolio">
 <meta name="twitter:description" content="A well-designed and clean portfolio site that demonstrates the advantage of being a front-end developer with back-end foundations.">
-<meta name="twitter:image" content="/images/mobile-logo-twitter.png">
+<meta name="twitter:image" content="http://dev.ndraz.com/images/mobile-logo-twitter.png"/>
 
 <!--Include needed styles -->
 <link rel="stylesheet" type="text/css" href="/boot/css/bootstrap.min.css">
