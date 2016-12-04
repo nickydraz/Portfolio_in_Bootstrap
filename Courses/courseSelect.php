@@ -1,9 +1,6 @@
-<?php
+<?php require 'databaseconnection.php'; ?>
 
-    $server = "localhost";
-    $username = "web";
-    $password = "ndrazdev";
-    $database = "course_projects";
+<?php
 
     //Connect to the database
     $con = mysqli_connect($server, $username, $password, $database);
