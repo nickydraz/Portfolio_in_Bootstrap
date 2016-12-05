@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+.wraphome {
+	width:760px;
+	float:left;
+	padding-bottom:5px
+}
+
+.wrap {
+	width:989px;
+	float:left;
+	padding-bottom:5px;
+}
+
+.object {
+	height: 220px;
+	width: 360px;
+	float: right;
+}
+
+.container {
+	width: 1000px;
+	Margin: 0 auto;
+	background-color: #000;
+	border: 1px solid #009900;
+}
+
+a img {
+	border:0px;
+}
+
+body {
+	Margin: 0;
+	padding: 0;
+	color: #FFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	line-height: 1.4;
+	background-color: #000;
+	background-image: url(images/back7.png);
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+.background {
+	width:auto;
+}
+
+header {
+	border: 5px solid #000;
+}
+
+.sidebar {
+	float: right;
+	background-color: #000000;
+	width: 220px;
+	padding: 3px;
+}
+
+.homecontent {
+	width:760px;
+	float:left;
+	align:right;
+}
+
+.content {
+	width: 990px;
+	float: left;
+}
+
+footer {
+	position: relative;
+	clear: both;
+	display: block;
+	padding: 5px;
+}
+
+header, section, aside, article, figure {
+	display: block;
+	font-size: x-large;
+}
+
+p img {
+	float: right;
+	height:220px;
+	width:360px;
+}
+
+p iframe {
+	float: right;
+	height:220px;
+	width:360px;
+	align:right;
+}
+
+h1 {
+	color: #009900;
+	font-size: 36px;
+	text-align:center;
+}
+
+h2 {
+	color: #009900;
+	font-size: x-large;
+}
+
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #009900;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+
+a:visited {
+	color: #009900;
+	text-decoration: underline;
+}
+
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+	color: #009900;
+}
+
+p {
+	font-size:medium;
+}
+#rightlogo {
+	float: right;
+}
